@@ -1,8 +1,13 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesString
     {
-        public int RetornarQuantidadeCaracteres(string texto)
+         public int RetornarQuantidadeCaracteres(string texto)
         {
             var numeroCaracteres = texto.Length;
             return numeroCaracteres;
